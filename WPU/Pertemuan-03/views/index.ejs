@@ -1,0 +1,8 @@
+<!-- ini merupakan fitur bawaan dari ejs -->
+<h4>List Data Mahasiswa</h4>
+<% mahasiswa.forEach(mhs => { %>
+    <ul>
+    <li>nama: <%= mhs.nama %></li>
+    <li>email: <%= mhs.email %></li>
+    </ul>
+<% }) %>
